@@ -1,5 +1,5 @@
 import * as api from '../api/index.js' ; 
-import { FETCH_ALL, CREATE, UPDATE , DELETE , LIKE , FETCH_BY_SEARCH , START_LOADING , END_LOADING, FETCH_POST , FETCH_BY_CREATOR , COMMENT , PAGINATION , Not_PAGINATION} from '../constants/actionTypes';
+import { FETCH_ALL, CREATE, UPDATE , DELETE , LIKE , FETCH_BY_SEARCH , START_LOADING , END_LOADING, FETCH_POST , FETCH_BY_CREATOR , COMMENT} from '../constants/actionTypes';
 import { toast } from 'react-hot-toast';
 
 /*********************** FOR GET THE POST  ****************************/

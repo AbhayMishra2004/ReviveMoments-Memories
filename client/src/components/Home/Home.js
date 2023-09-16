@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Grow, Grid , Paper , AppBar, TextField , Button} from '@material-ui/core';
-import { useDispatch ,  useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 import Posts from '../Posts/Posts';
 import Form from '../Form/Form';
 import useStyle from './styles' ; 
