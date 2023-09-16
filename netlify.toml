@@ -1,4 +1,0 @@
-[build]
-command = "npm install --legacy-peer-deps && npm run build"
-publish = "build"
-node_version = "14"  # Specify the Node.js version you want to use
