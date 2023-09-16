@@ -4,47 +4,27 @@
     "private": true,
     "proxy": "https://memories-project-part4.herokuapp.com/",
     "dependencies": {
-        "@material-ui/core": "5.11.0",
-        "@testing-library/jest-dom": "4.2.4",
-        "@testing-library/react": "9.3.2",
-        "@testing-library/user-event": "7.1.2",
-        "axios": "0.19.2",
-        "jwt-decode": "3.1.2",
-        "material-ui-chip-input": "1.1.0",
-        "moment": "2.29.4",
-        "react": "16.12.0",
-        "react-dom": "16.12.0",
-        "react-file-base64": "1.0.3",
-        "react-google-login": "5.2.2",
-        "react-hot-toast": "2.4.1",
-        "react-redux": "7.2.9",
-        "react-router-dom": "5.3.4",
+        "@material-ui/core": "^5.11.0",
+        "@material-ui/icons": "^5.11.0",
+        "@material-ui/lab": "^5.11.0",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "axios": "^0.19.2",
+        "jwt-decode": "^3.1.2",
+        "material-ui-chip-input": "^1.2.1",
+        "moment": "^2.29.4",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-file-base64": "^1.0.3",
+        "react-google-login": "^5.2.2",
+        "react-hot-toast": "^2.4.1",
+        "react-redux": "^7.2.9",
+        "react-router-dom": "^5.3.4",
         "react-scripts": "3.4.1",
-        "react-toastify": "7.0.4",
-        "redux": "4.2.1",
-        "redux-thunk": "2.4.2"
-    } ,
-    "scripts": {
-        "start": "react-scripts --openssl-legacy-provider start",
-        "build": "react-scripts --openssl-legacy-provider build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+        "react-toastify": "^7.0.4",
+        "redux": "^4.2.1",
+        "redux-thunk": "^2.4.2"
     },
     "devDependencies": {
         "@redux-devtools/core": "^3.9.0",
@@ -57,5 +37,3 @@
         "eslint-plugin-react-hooks": "^7.31.0"
     }
 }
-
-
